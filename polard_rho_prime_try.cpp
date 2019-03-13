@@ -1,4 +1,6 @@
-//try this it is better than the other polard function
+//may perform slow for some inputs
+//will print every prime factor os the given input
+//feel free to modify as per your need
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -26,7 +28,7 @@ l f(l a , l n)
 }
 l polardrho(l n)
 {
-	srand(time(NULL));		//initailizing pseudo random generator
+	srand(time(NULL));		
 	if(n==1) return 1;
 	if(n%2==0) return 2;
 	l a=rand()%n+2;
